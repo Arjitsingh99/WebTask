@@ -1,7 +1,7 @@
 body {
     padding: 0px 18px 0px 18px;
     margin: auto;
-    background-color: tan;
+    background-size:1%;
 }
 
 * {
@@ -23,4 +23,29 @@ body {
     border-bottom:5px solid #5924ce; 
     border-bottom-left-radius: 10px; 
     border-bottom-right-radius: 10px;
+    background-color: rgba(256, 256, 256, 0);
 }
+
+.placeholder-image{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);
+    background-position: center top;
+    background-size:cover;
+}
+
+.accent{
+    color: #5924ce;
+}
+
+.placeholder-text{
+    line-height: 100vh;
+    text-align: center;
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+  

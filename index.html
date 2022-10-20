@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Document Title</title>
+   <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -14,17 +16,17 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar bg-light">
+    <nav class="navbar navbar-expand-lg navbar bg-light fixed-top">
         <div class="container-fluid">
             
-          <img src="brand.svg"/>
+          <img src="brand.svg" alt="placeholder-image"/>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+          <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar2" >
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title ">Goodwin Consulting Group, Inc.</h5>
+              <h5 class="offcanvas-title accent ">Ipsum, Inc.</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
             </div>
             <div class="offcanvas-body">
@@ -34,8 +36,17 @@
                   <a class="nav-link-custom" href="https://ccgoodwin.ca">Home</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link-custom" href="https://ccgoodwin.ca">About Us</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link-custom dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        About Us
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://ccgoodwin.ca">Our Team</a></li>
+                  
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                    </ul>
                   </li>
   
                 <li class="nav-item dropdown">
@@ -55,16 +66,39 @@
                 <li class="nav-item">
                     <a class="nav-link-custom" href="https://ccgoodwin.ca">Contact Us</a>
                 </li>
-  
-
               </ul>
-              
             </div>
           </div>
         </div>
-      </nav>
+    </nav>
       
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <div class="placeholder-image" aria-label="placeholder-image"  role="placeholder-image">
+
+    </div>
+
+    <div class="placeholder-text  mt-5" >
+        <span>
+            <h1 class="accent" aria-label="placeholder-text" role="placeholder-text">Placeholder Text Goes Here?</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Distinctio praesentium quia ea consequuntur, minus non mollitia 
+            pariatur repellendus est accusamus quibusdam? Possimus, porro. 
+            Dolore perspiciatis eum hic alias laboriosam tempora laudantium, 
+            nesciunt facilis est possimus fuga rem ipsa et consequatur deserunt 
+            modi cumque, fugiat nobis itaque distinctio? Iure quas sunt minima 
+            perspiciatis aliquid aliquam quae, dignissimos assumenda suscipit 
+            vero nesciunt consequatur aut a maxime hic fugit consectetur fuga 
+            totam nobis, modi adipisci. Eveniet, distinctio veritatis enim accusamus 
+            deserunt, officia, doloribus sunt in doloremque optio omnis eum excepturi 
+            fuga velit consectetur aperiam perspiciatis mollitia odio maxime illo 
+            hic iure! Velit, suscipit?
+        </span>
+    </div>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 </body>
 </html>
